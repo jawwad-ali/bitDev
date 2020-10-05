@@ -1,0 +1,75 @@
+.container {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+
+
+.header {
+
+    width: 100%;
+
+    position: relative;
+
+    background: gray;
+
+    padding: 17px;
+
+}
+
+
+
+.logo-img {
+
+    height: 80px;
+
+    width: 80px;
+
+    position: absolute;
+
+    left: 20px;
+
+    top: 5px;
+
+}
+
+
+
+.links {
+
+    float: right;
+
+}
+
+
+
+.links-list {
+
+    list-style: none;
+
+    margin-left: 20px;
+
+    display: inline-block;
+
+    font-size: 15px;
+
+}
+
+
+
+a {
+
+    text-decoration: none !important;
+
+    color: white;
+
+    text-transform: uppercase;
+
+}
